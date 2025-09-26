@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #1e1e2f;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.stopwatch {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.buttons button {
+  background: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.buttons button:hover {
+  background: #45a049;
+}
+
+.lap-times {
+  margin-top: 20px;
+  width: 300px;
+  max-height: 200px;
+  overflow-y: auto;
+  border: 1px solid #555;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.lap-times p {
+  margin: 5px 0;
+  padding: 5px;
+  background: #2e2e3f;
+  border-radius: 3px;
+}
